@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            background-color: black;
+            height: 100vh;
+           /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover ;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center no-repeat  fixed;
+            background-size: cover;
+
         }
         main{
-            height: 100vh;
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
             border-radius: 15px;
-            background-size:auto ;
+          
 
         }
     </style>
@@ -27,7 +39,7 @@
     <main>
         <h1>teste de imagem de fundo</h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis unde quam cupiditate corrupti provident recusandae voluptatibus fugiat mollitia quas explicabo voluptates rerum quidem, deleniti qui eaque omnis adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias exercitationem reprehenderit doloremque voluptates odio cumque vero nobis earum, minima soluta laborum repudiandae vitae expedita debitis ducimus suscipit, illum enim aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, officiis voluptas ex laudantium consequatur quibusdam eveniet soluta dolorum? Consequuntur minima exercitationem aspernatur sit, quam nobis voluptate architecto ratione accusantium veritatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis unde quam cupiditate corrupti provident recusandae voluptatibus fugiat mollitia quas explicabo voluptates rerum quidem, deleniti qui eaque omnis adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias exercitationem reprehenderit doloremque voluptates odio cumque vero nobis earum, minima soluta laborum repudiandae vitae expedita debitis ducimus suscipit, illum enim aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, officiis voluptas ex laudantium consequatur quibusdam eveniet soluta dolorum? Consequuntur minima exercitationem aspernatur sit, quam nobis voluptate architecto ratione accusantium veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis unde quam cupiditate corrupti provident recusandae voluptatibus fugiat mollitia quas explicabo voluptates rerum quidem, deleniti qui eaque omnis adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias exercitationem reprehenderit doloremque voluptates odio cumque vero nobis earum, minima soluta laborum repudiandae vitae expedita debitis ducimus suscipit, illum enim aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, officiis voluptas ex laudantium consequatur quibusdam eveniet soluta dolorum? Consequuntur minima exercitationem aspernatur sit, quam nobis voluptate architecto ratione accusantium veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis unde quam cupiditate corrupti provident recusandae voluptatibus fugiat mollitia quas explicabo voluptates rerum quidem, deleniti qui eaque omnis adipisci. Lorem ipsum . Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut doloribus animi voluptates, saepe dolore facilis esse suscipit. Possimus dolorem sed tempora laudantium a voluptatibus blanditiis. Nobis perferendis explicabo et voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae dolore mollitia tempore ullam cumque aspernatur sit quos quibusdam quia reiciendis minima rerum vero, ad ratione pariatur quisquam dolores officia.</p>
     </main>
 </body>
 </html>
