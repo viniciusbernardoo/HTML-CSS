@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*Importando Fontes (GOOGLE FONTES)*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -49,6 +49,7 @@ a:hover{
     text-decoration: underline;
 }
 
+
 section{
     font-size: 3.5vw;
     font-family: var(--fonte3);
@@ -58,21 +59,42 @@ section{
     padding-left: 30px;/*COLOCAR A PARAVRA MAIS Á DIREITA*/
 }
 
+section>p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
 }
 
 section.imagem{
-    display: inline-block;
-    padding: 5px;
     background-color: rgb(88, 88, 88);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.392);/*SOMBRA NA IMAGEM*/
+    background-size: cover;
+    background-attachment: fixed; /*Imagens com efeito Parallax simples*/
+
 }
 
 section.imagem>p{ /*UMA CAIXA PRETA NO PARAGRAFO DA IMAGEM  */
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.097);
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+
+}
+
+section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+
+}
+
+section#img02{
+    background-image: url("../imagens/background002.jpg");
+    background-position: right center;
+
 }
 
 footer{
